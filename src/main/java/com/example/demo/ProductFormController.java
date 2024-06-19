@@ -15,10 +15,10 @@ public class ProductFormController {
         return "product-form";
     }
 
-    @PostMapping("/saveProduct")
-    public String displayProduct(@ModelAttribute("product")
-    Product product,Model model) {
-        model.addAttribute("product", model)
+    // @PostMapping("/saveProduct")
+    // public String displayProduct(@ModelAttribute("product")
+    // Product product,Model model) {
+    // model.addAttribute("product", model)
 
-    }
+    // }
 }
